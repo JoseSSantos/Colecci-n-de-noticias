@@ -1,0 +1,39 @@
+@mixin iconos ($colorfondo, $width){
+
+    background-color: $colorfondo;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: $width;
+    text-align: center;
+    
+}
+
+.tags{
+    float: left;
+    display: block;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    }
+
+    #pc{
+    @include iconos(green,auto);
+        
+    }
+    #cube{
+    @include iconos(red,1rem);
+    }
+    
+    .cancel{
+        color: red;
+        float: right;
+        margin: 1rem;
+        font-size: 1.5rem;
+
+    }
+    
+    #phone{
+    @include iconos(orange, 1rem);
+
+    }
+
+

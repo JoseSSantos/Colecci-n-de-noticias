@@ -1,0 +1,54 @@
+@import 'variables';
+
+.kanban{
+
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 90%;
+    margin-top: 3rem;
+
+
+    h2{
+        margin: 1rem;
+    }
+    
+    .column{
+
+    border-radius: 15px;
+    width: 19%;
+    background-color: rgba(255, 255, 255, 0.521);
+    float: left;
+    margin-left: 1%;
+
+        .card{
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+            margin: 5%;
+            width: 90%;
+            overflow: hidden;
+            cursor: pointer;
+
+            .t_card, .text{
+                float: left;
+                margin: 1rem;
+            }
+        
+        }
+
+        .card:hover{
+            background-color: $colorhover;
+
+            
+        }
+        .card:hover .tags{
+            color: $colorhover;
+        }
+        
+        .card:hover .cancel{
+            color: rgb(0, 0, 0);
+        }
+
+    }
+}
