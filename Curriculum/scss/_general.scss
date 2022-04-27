@@ -1,0 +1,59 @@
+@mixin prueba {
+    width: 15px;
+    height: 15px;
+    display: block;
+    
+}
+
+.general{
+    margin-right: 3%;
+    width: 97%;
+    margin-top: 5%;
+
+    .educacion, .experiencia, .otros, .conocimientos{
+        border-top: 2px solid black;
+        margin-top: 5%;
+    }
+    .item{
+        position: relative;
+        display: inline-block;
+        padding-left: 50px ;
+    }
+    .item::after{
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        border-radius: 50%;
+        border:solid 2px blue;
+    }
+    .linea{
+        margin-top: 3% ;
+    }
+    .tiempo{
+        position: relative;
+    }
+    .tiempo::before{
+        content:'';
+        display: block;
+        width:3px;
+        height: 100%;
+        background-color:blue;
+        position:absolute;
+        top:0;
+        left:88px; 
+    }
+
+    .conocimientos img{
+
+        width: 15%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+    }
+
+}

@@ -1,0 +1,75 @@
+@mixin barras($porcentaje){
+    background-color: blue;
+    height: 30px;
+    width: $porcentaje;
+    display: flex;
+    align-items: center;
+    
+}
+@mixin barra-general{
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    color:white;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 1%;
+    
+}
+
+
+
+.barra-izquierda{
+    background-color: grey;
+    height: 90%;
+    width: 26%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    img{
+        display: flex;
+        width: 100%;
+    }
+
+    p{
+        font-size: large;
+    }
+    .personal{
+        padding: 6%;
+        h2{
+            color: white;
+        }
+        p{
+            color:black;
+        }
+        .perfil, .direccion, .contacto, .idiomas{
+            margin-bottom: 5%;
+            padding-bottom: 5%;
+            border-bottom: 2px solid black;
+
+        }
+
+
+        .barra-ing{
+        @include barra-general();
+            .progreso{
+                @include barras(50%);
+                
+            }
+        }
+        .barra-spa{
+            @include barra-general();
+            .progreso{
+                @include barras(100%);
+            }
+        }
+        .barra-val{
+            @include barra-general();
+            .progreso{
+                @include barras(70%);
+            }
+        }
+    }
+}

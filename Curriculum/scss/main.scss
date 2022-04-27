@@ -1,0 +1,32 @@
+@import 'barra-izquierda';
+@import 'general';
+
+*{
+    padding: 0;
+}
+
+.curriculum{
+    width: 60%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 80%;
+    margin: 0 auto ;
+    margin-top: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    .todo{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        margin-top: 10%;
+        margin-left: 9%;
+        width: 65%;
+    }
+}
