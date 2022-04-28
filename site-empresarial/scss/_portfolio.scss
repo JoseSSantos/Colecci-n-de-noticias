@@ -1,0 +1,39 @@
+
+.portfolio{
+
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .title{
+        margin: 5%;
+    }
+    .navegador{
+        padding: 2%;
+        width: 100%;
+        background-color: lightgray;
+        
+    }
+    h2{
+        margin-bottom: 5%;
+    }
+    .order{
+        border: 1px solid grey;
+    }
+    .order:hover{
+        background-color: grey;
+        color:white;
+    }
+    .fotos{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .conjunto{
+            display: block;
+            margin-left: 3%;
+        }
+    }
+}

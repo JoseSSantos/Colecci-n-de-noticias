@@ -1,0 +1,41 @@
+
+
+iframe{
+    width: 100%;
+    height: 20rem;
+}
+
+.formulario{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    input{
+        margin-top: 1%;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+    textarea{
+        border-radius: 5px;
+        margin-top: 1%;
+        border: 1px solid grey;
+        height: 150px;
+    }
+    #form{
+        display: grid;
+    }
+
+    h3{
+        display: inline-block;
+        margin-right: 3%;
+    }
+}
+.navegador{
+    padding: 2%;
+    padding-left: 15%;
+    width: 100%;
+    background-color: lightgray;
+    
+}
+.progress{
+    margin-top: 1%;
+}

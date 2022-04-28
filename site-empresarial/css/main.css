@@ -1,0 +1,239 @@
+.header {
+  background-color: white;
+}
+.header .buscador {
+  background-color: lightgray;
+  overflow: hidden;
+  padding: 1%;
+}
+.header .buscador .search {
+  float: right;
+  background-color: grey;
+}
+.header .buscador .search .icon {
+  color: white;
+  padding-right: 6px;
+}
+.header .buscador .phone {
+  float: left;
+}
+.header .botonera {
+  text-align: center;
+}
+.header .botonera .nav-link:hover {
+  color: red;
+}
+.header .botonera ul {
+  width: 100%;
+}
+.header .botonera .nav-item {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.footer {
+  margin-top: 2%;
+  background-color: lightgrey;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+}
+.footer .touch, .footer .information, .footer .pages, .footer .newsletter {
+  margin: 5%;
+  width: 25%;
+}
+.footer h3 {
+  margin-bottom: 10%;
+  font-size: medium;
+  font-weight: bold;
+}
+.footer .footerlink, .footer p {
+  display: block;
+  color: grey;
+  text-decoration: none;
+}
+.footer input {
+  width: 60%;
+  display: inline-block;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+}
+.footer button {
+  width: 35%;
+}
+.footer .subscribe {
+  display: flex;
+  align-items: stretch;
+}
+
+.socialmedia {
+  background-color: #e5e5e5;
+  display: flex;
+  overflow: hidden;
+  padding: 2%;
+}
+.socialmedia .redes {
+  width: 50%;
+  font-size: 1.5rem;
+  float: right;
+  margin-left: 50%;
+}
+.socialmedia .copy {
+  width: 50%;
+}
+.socialmedia .fa-brands {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.home {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.home .rojo {
+  color: red;
+}
+.home .content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.home .content .content-text {
+  width: 70%;
+}
+.home .content .content-button {
+  width: 30%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.home .content .content-button button {
+  width: 60%;
+}
+
+.paneles {
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.paneles .panel {
+  text-align: center;
+  border: 1px solid black;
+  width: 25%;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+  overflow: hidden;
+}
+.paneles .panel h3 {
+  padding-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.paneles .panel .first {
+  background-color: #333;
+  color: white;
+  padding: 10%;
+}
+.paneles .panel ul {
+  padding-left: 0%;
+  width: 100%;
+}
+.paneles .panel li {
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  list-style: none;
+  list-style: outside none none;
+  padding: 10px 5%;
+}
+.paneles .panel .btn {
+  color: white;
+  margin: 10%;
+}
+
+.portfolio {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.portfolio .title {
+  margin: 5%;
+}
+.portfolio .navegador {
+  padding: 2%;
+  width: 100%;
+  background-color: lightgray;
+}
+.portfolio h2 {
+  margin-bottom: 5%;
+}
+.portfolio .order {
+  border: 1px solid grey;
+}
+.portfolio .order:hover {
+  background-color: grey;
+  color: white;
+}
+.portfolio .fotos {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio .fotos .conjunto {
+  display: block;
+  margin-left: 3%;
+}
+
+iframe {
+  width: 100%;
+  height: 20rem;
+}
+
+.formulario {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+.formulario input {
+  margin-top: 1%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.formulario textarea {
+  border-radius: 5px;
+  margin-top: 1%;
+  border: 1px solid grey;
+  height: 150px;
+}
+.formulario #form {
+  display: grid;
+}
+.formulario h3 {
+  display: inline-block;
+  margin-right: 3%;
+}
+
+.navegador {
+  padding: 2%;
+  padding-left: 15%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.progress {
+  margin-top: 1%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

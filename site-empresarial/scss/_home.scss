@@ -1,0 +1,32 @@
+
+.home{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+
+    .rojo{
+        color: red;
+    }
+
+    .content{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        .content-text{
+            width: 70%;
+        }
+        .content-button{
+            width: 30%;
+            margin-left: 15%;
+            margin-top: 5%;
+
+            button{
+                width: 60%;
+            }
+        }
+
+    }
+
+}

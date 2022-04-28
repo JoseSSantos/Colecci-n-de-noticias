@@ -1,0 +1,59 @@
+.footer{
+    margin-top: 2%;
+    background-color: lightgrey;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    .touch, .information, .pages, .newsletter{
+        margin: 5%;
+        width: 25%;
+    }
+    h3{
+        margin-bottom: 10%;
+        font-size: medium;
+        font-weight: bold;
+    }
+    .footerlink, p{
+        display: block;
+        color: grey;
+        text-decoration: none;
+    }
+    input{
+        width: 60%;
+        display: inline-block;
+        padding: 2%;
+        border-radius: 5px;
+        border: none;
+        
+    }
+    button{
+        width: 35%;
+    }
+    .subscribe{
+display: flex;
+align-items: stretch;
+    }
+
+    
+
+}
+.socialmedia{
+    background-color: #e5e5e5;
+    display: flex;
+    overflow: hidden;
+    padding: 2%;
+    .redes{
+        width: 50%;
+        font-size: 1.5rem;
+        float:right;
+        margin-left: 50%;
+    }
+    .copy{
+        width: 50%;
+    }
+    .fa-brands{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+}
